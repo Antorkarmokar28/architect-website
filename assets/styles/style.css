@@ -21,6 +21,18 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.primary-btn{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
 /* ----------------
     header style
 ---------------- */
@@ -80,22 +92,59 @@ body{
     color: #727272;
     margin-bottom: 32px;
 }
-.banner-btn{
-    width: 180px;
-    height: 64px;
-    background-color: #FF900E;
-    color: #FFFFFF;
-    border: none;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
 .banner-thamnail{
     width: 1140px;
     margin-top: 50px;
+    margin-bottom: 45px;
 }
 .banner-thamnail img{
     width: 100%;
 }
+/* --------------------------------------------------
+    quick list of our future section style start
+-------------------------------------------------- */
+.our-future{
+    margin-top: 85px;
+}
+.our-future-wrapper{
+    display: flex;
+    gap: 76px;
+    align-items: center;
+}
+.our-future-thamnail-inner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+.thamnail{
+    width: 342px;
+    height: 342px;
+}
+.thamnail img{
+    width: 100%;
+}
+.our-future-info-title{
+    color: #727272;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    margin-bottom: 24px;
+}
+span.black{
+    color: #131313;
+}
+span.yollow{
+    color: #FF900E;
+}
+.our-future-info-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+/* --------------------------------------------------
+    quick list of our future section style end
+-------------------------------------------------- */
