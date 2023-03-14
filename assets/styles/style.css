@@ -275,3 +275,53 @@ section.some-facts{
 /* ------------------------------------
     some facts section style end
 ------------------------------------ */
+/* -------------------------------
+    subscribe section style start
+------------------------------- */
+section.subscribe{
+    margin-top: 85px;
+}
+.subscription-wrapper{
+    background-image:linear-gradient(to right,#FF900E,#ffff003b),url("../images/future_technology_prospects.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    padding: 59px 64px;
+}
+.subscribe-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.subscribe-description{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: none;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.input-inner{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-inner input{
+    width: 100%;
+    padding: 15px 15px;
+    outline: 0;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 12px;
+    color: #727272;
+}
+.input-inner input[type="submit"]{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+}
