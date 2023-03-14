@@ -148,3 +148,83 @@ span.yollow{
 /* --------------------------------------------------
     quick list of our future section style end
 -------------------------------------------------- */
+/* -------------------------------------------------------
+    future you will love and enjoy section style start
+------------------------------------------------------- */
+.enjoy-and-love{
+    margin-top: 85px;
+}
+.love-and-enjoy-wrapper{
+    display: flex;
+    gap: 54px;
+}
+.love-and-enjoy-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+    border-left: 3px solid #FF900E;
+    padding-left: 26px;
+}
+.love-and-enjoy-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.sub-inner{
+    width: 580px;
+    padding: 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin: 20px 0px;
+}
+.sub-inner-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.sub-inner-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.love-and-enjoy-thamnail{
+    width: 800px;
+    height: 770px;
+}
+.love-and-enjoy-thamnail img{
+    width: 100%;
+    height: 100%;
+}
+.years{
+    width: 300px;
+    height: 150px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    left: -64px;
+    bottom: 82px;
+}
+.years h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+}
+.years p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+}
+/* -------------------------------------------------------
+    future you will love and enjoy section style end
+------------------------------------------------------- */
