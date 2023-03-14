@@ -16,7 +16,7 @@ body{
 .container{
     width: 1140px;
 }
-.header, .main{
+.header, .main, .footer{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -287,6 +287,7 @@ section.subscribe{
     background-size: cover;
     border-radius: 8px;
     padding: 59px 64px;
+    background-attachment: fixed;
 }
 .subscribe-title{
     font-style: normal;
@@ -325,3 +326,56 @@ section.subscribe{
     font-style: normal;
     cursor: pointer;
 }
+/* -------------------------------
+    subscribe section style end
+------------------------------- */
+/* -----------------------------------
+    Our sponspors section style start
+----------------------------------- */
+.our-sponsor{
+    margin-top: 85px;
+}
+.sponsor-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.sponsor-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sponsor-wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 155px;
+}
+.company-logo-inner img{
+    width: 100%;
+}
+/* -----------------------------------
+    Our sponspors section style end
+----------------------------------- */
+/* --------------------
+    footer style start
+-------------------- */
+footer.footer{
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+.footer-content{
+    padding: 39px 0px;
+    text-align: center;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+}
+/* --------------------
+    footer style end
+-------------------- */
