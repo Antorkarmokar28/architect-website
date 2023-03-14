@@ -1,0 +1,118 @@
+/* mobile device responsive */
+@media only screen and (max-width:576px) {
+    .container{
+        width: 100%;
+    }
+    /* --------------------------------
+        header section responsiv start
+    -------------------------------- */
+    .navbar-container{
+        flex-direction: column;
+    }
+    .logo{
+        font-size: 40px;
+    }
+    .primary-menu{
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 39px;
+        line-height: 51px;
+    }
+    .banner-description{
+        font-size: 16px;
+    }
+    .banner-thamnail{
+        width: 100%;
+    }
+    .banner-thamnail img{
+        width: 100%;
+    }
+    .primary-menu{
+        margin-top: 15px;
+    }
+    /* --------------------------------
+        header section responsiv end
+    -------------------------------- */
+    /* ----------------------------------------------------
+        quick list of our future section responsive start
+    ---------------------------------------------------- */
+    .our-future-wrapper{
+        flex-direction: column;
+    }
+    .our-future-thamnail-inner{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .our-future-info{
+        padding: 10px;
+    }
+    /* ----------------------------------------------------
+        quick list of our future section responsive end
+    ---------------------------------------------------- */
+    /* ------------------------------------------------------
+        future you will love and enjoy section responsive start
+    ------------------------------------------------------ */
+    .love-and-enjoy-wrapper{
+        flex-direction: column;
+    }
+    .love-and-enjoy-details{
+        width: 100%;
+        padding: 20px;
+    }
+    .love-and-enjoy-title{
+        font-size: 30px;
+    }
+    .sub-inner{
+        width: 100%;
+    }
+    .love-and-enjoy-thamnail{
+        width: 100%;
+        height: 100%;
+        padding: 0px 70px;
+    }
+    .love-and-enjoy-thamnail img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .years{
+        width: 100%;
+    }
+    /* ------------------------------------------------------
+        future you will love and enjoy section responsive end
+    ------------------------------------------------------ */
+    /* ------------------------------------
+        some facts section responsive start
+    ------------------------------------ */
+    .facts-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0px 10px;
+    }
+    /* ------------------------------------
+        some facts section responsive end
+    ------------------------------------ */
+    /* -----------------------------------
+        subscribe section responsive start
+    ----------------------------------- */
+    .input-inner{
+        width: 100%;
+    }
+    /* -----------------------------------
+        subscribe section responsive end
+    ----------------------------------- */
+    /* ---------------------------------------
+        our sponspors section responsive start
+    --------------------------------------- */
+    .sponsor-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .company-logo-inner{
+        padding: 20px 20px;
+    }
+    /* ---------------------------------------
+        our sponspors section responsive end
+    --------------------------------------- */
+    .hide{
+        display: none;
+    }
+}
